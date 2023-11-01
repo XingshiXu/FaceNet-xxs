@@ -24,9 +24,9 @@ class mobilenet(nn.Module):
         x = self.model.stage3(x)
         return x
 
-class FaceNet(nn.Module):
+class Facenet(nn.Module):
     def __init__(self, backbone="mobilenet", dropout_keep_prob=0.5, embedding_size=128, num_classes=None, mode="train", pretrained=False):
-        super(FaceNet, self).__init__()
+        super(Facenet, self).__init__()
         if backbone=="mobilenet":
             self.backbone = mobilenet(pretrained)
             flat_shape = 1024
