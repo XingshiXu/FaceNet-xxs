@@ -9,6 +9,11 @@ Reference：https://github.com/bubbliiiing/facenet-pytorch/tree/bilibili
 
 
 ## done List
+
+**`2023-11-01`**: 模型训练
+
+**`2023-10-29`**: 模型构建
+
 **`2023-10-28`**: 构建仓库
 
 ## 文件结构
